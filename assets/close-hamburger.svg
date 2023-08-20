@@ -1,0 +1,14 @@
+<svg width="20" height="20" viewBox="0 0 12.5 12.5" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="LinGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#febe47"></stop>
+            <stop offset="100%" stop-color="#fd7241"></stop>
+        </linearGradient>
+    </defs>
+    <path class="Icon__IconPathStroke-sc-1asuq2u-8 dbFiuw"
+          fill-rule="evenodd" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter"
+          fill="url(#LinGradient)" stroke="url(#LinGradient)" d="M11.500,1.500 L1.500,11.500"></path>
+    <path class="Icon__IconPathStroke-sc-1asuq2u-8 dbFiuw"
+          fill-rule="evenodd" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter"
+          fill="url(#LinGradient)" stroke="url(#LinGradient)" d="M1.500,1.500 L11.500,11.500"></path>
+</svg>
