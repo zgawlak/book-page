@@ -2,6 +2,12 @@ section {
     padding: 60px 0;
 }
 
+#intro {
+    background-image: url('assets/banner-image.png');
+    background-position-y: bottom;
+    background-size: cover;
+}
+
 #toggle-button {
     background: transparent;
     border: none;
