@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warriors: Shadow</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🙀</text></svg>">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🙀</text></svg>">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -326,6 +327,56 @@
                         </p>
                         <small class="fst-italic">- Literary Odyssey Review</small>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-dark">
+        <div class="container-lg">
+            <div class="text-center text-light">
+                <h2><i class="bi bi-envelope-heart"></i> Join the Clans</h2>
+                <p class="lead">Fill out the form to join our mailing list and be notified of future releases!</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form class="text-light">
+                        <label for="email" class="form-label">Email address</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="ex. firestar@hotmail.com">
+                        </div>
+
+                        <label for="name" class="form-label">Name</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control" id="name" placeholder="ex. Erin Hunter">
+                        </div>
+
+                        <label for="subject" class="form-label">Which Clan will you join?</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-heart-fill"></i>
+                            </span>
+                            <select class="form-select" id="subject">
+                                <option value="ThunderClan" selected>ThunderClan</option>
+                                <option value="WindClan">WindClan</option>
+                                <option value="RiverClan">RiverClan</option>
+                                <option value="ShadowClan">ShadowClan</option>
+                                <option value="SkyClan">SkyClan</option>
+                                <option value="StarClan">StarClan</option>
+                            </select>
+                        </div>
+
+                        <div class="mt-4 text-center">
+                            <button type="submit" class="btn btn-warning">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
