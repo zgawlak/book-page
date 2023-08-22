@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colours: (
+    "altdark": #011301,
+    "green-primary": #44a148,
+    "light-yellow": #efeed5
+);
+
+$theme-colors: map-merge($custom-theme-colours, $theme-colors);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
