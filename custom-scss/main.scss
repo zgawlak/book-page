@@ -4,7 +4,6 @@
 $custom-theme-colours: (
     "altdark": #011301,
     "green-primary": #44a148,
-    "light-yellow": #efeed5
 );
 
 $theme-colors: map-merge($custom-theme-colours, $theme-colors);

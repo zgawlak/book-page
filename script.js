@@ -13,10 +13,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-    if (
-        document.body.scrollTop > 20 ||
-        document.documentElement.scrollTop > 20
-    ) {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
         toTopButton.style.display = "block";
     } else {
         toTopButton.style.display = "none";
